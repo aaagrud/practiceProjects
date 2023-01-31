@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.product-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 570px;
+    height: 430px;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+img{
+    width: 275px;
+    height: 430px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card{
+    width: 275px;
+    height: 430px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button p{
+    color: white;
+}
+.button img{
+    width:50px;
+    height: 50px;
+}
+#per{
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+#desc{
+    font-size: 13px;
+    margin-right: 33px;
+    margin-bottom: 17px;
+}
+p{
+    font-family: montserrat;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+}
+h1{
+    font-size: 34px;
+    font-style: bold;
+    font-family: fraunces;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.prices p{
+    font-size: 13px;
+    text-decoration: line-through;
+    display: flex;
+    margin-left: 13px;
+}
+.prices h2{
+    font-family: fraunces;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+}
+.button{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+}
+#cart{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

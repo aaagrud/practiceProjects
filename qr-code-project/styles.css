@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    height: 100vh;
 }
 .qr-container{
     background-color: white;
@@ -44,6 +45,6 @@ p{
     color: rgb(159, 167, 169);
     text-align: center;
 }
-h3{
-    text-align: center;
+h2{
+    font-family: monsterrat;
 }
