@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flexbox Pricing Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(209, 228, 246);
+      font-family: 'papyrus', sans-serif;
+    }
+
+    .pricing-container{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      height: 100vh;
+    }
+
+
+    .pricing-plan{
+      border: 1px solid rgb(168, 182, 193);
+      background-color: rgb(237, 237, 237);
+      text-align: center;
+      width: 27%;
+      gap: 2rem;
+      border-radius: 7%; 
+      padding: 30px;
+      min-width: 27%;
+    }
+
+    li{
+      width: 100%;
+      list-style: circle;
+    }
+
+    .plan-features{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .plan-features *{
+      padding-left: 55px;
+      display: flex;
+    }
+
+    .plan-title{
+      text-align: center;
+      font-size:x-large;
+      font-weight: bold;
+    }
+
+    .plan-price{
+      text-align: center;
+      font-weight: bolder;
+      font-size: 36pt;
+    }
+
+    .plan-button{
+      font-family: 'papyrus', sans-serif;
+      border-radius: 15%;
+      background-color: rgb(76, 122, 156);
+      color: white;
+      border: 0;
+      width: 72px;
+      height: 36px;
+    }
+    /* Hint: What can you do with a media query and flexbox? */
+    @media (max-width: 1250px) {
+      .pricing-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        height: 100vh;
+      }
+      .pricing-plan{
+        min-width: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pricing-container">
+    <div class="pricing-plan">
+      <div class="plan-title">Beginner</div>
+      <div class="plan-price">$12.99/month</div>
+      <ul class="plan-features">
+        <li> 💎10 Hours of Classes</li>
+        <li> 💎1 Device</li>
+        <li> 💎No 24/7 Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Intermediate</div>
+      <div class="plan-price">$24.99/month</div>
+      <ul class="plan-features">
+        <li> 💎50 Hours of Classes</li>
+        <li> 💎5 Devices</li>
+        <li> 💎24/7 Phone &amp; Email Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Advanced</div>
+      <div class="plan-price">$48.99/month</div>
+      <ul class="plan-features">
+        <li> 💎100 Hours of Classes</li>
+        <li> 💎10 Devices</li>
+        <li> 💎24/7 Video Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
