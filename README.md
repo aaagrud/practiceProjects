@@ -16,3 +16,5 @@ A simple website showing just a QR code made with HTML and CSS
 A to-do list featuring an option to add a time to do the task made with flet
 ## Word Validity Checker
 A simple flet app that checks if the inputted string is a real word in English
+## Birthday Invite
+A Birthday Invitation made to freshen up my HTML 
