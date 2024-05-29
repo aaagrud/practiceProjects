@@ -15,7 +15,7 @@ Random projects that are not big enough to warrant a repo of its own.
 9. [Birthday Invite](Birthday%20Invite): A Birthday Invitation made to freshen up my HTML.
 10.  [Hello World with Express](helloWorldExpress): First step into using Express js.
 11.   [Band Name Generator](bandNameGenerator): Simple app that generates bandname from inputs provided.
-12.   [Day Advice](ejsDemo): A simple app that returns a specific advice depending on if its a weekend or weeekday. Made to learn ejs.
+12.   [Day Advice](ejs-Demo): A simple app that returns a specific advice depending on if its a weekend or weeekday. Made to learn ejs.
 13.   [Letters in a String](ejs-dataPassing): A node app that returns the number of letters in an inputted name. Made to learn data passing in ejs.
 14.   [EJS tags](ejs-tag): An app that prints elements in an array with ejs
 15.   [Gallery](gallery): A static webpage of a gallery made with bootstrap
